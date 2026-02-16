@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/aryandeshwal/Desktop/DSA/L-17/reverse_array'
+relocations:     []
+...
