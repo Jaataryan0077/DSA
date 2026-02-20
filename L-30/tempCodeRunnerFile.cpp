@@ -1,0 +1,1 @@
+            if(j>i+1 && arr[j]==arr[j-1]) continue;
