@@ -34,7 +34,7 @@ int main(){
     
         if(count>n/2)
         {
-            cout<<candidate;
+            cout<<candidate<;
         }
         else{
 
