@@ -7,9 +7,10 @@ string s="is2 sentence4 this1 a3";
 vector<string>ans(10);
 string temp;
 int count=0;
-int index=0;
-for(int i=0;i<s.size();i++){
-    if(s[index]==' '){
+
+for(int i=0;i<s.size();i++)
+{
+    if(s[i]==' '){
         int pos=temp[temp.size()-1]-'0';
         temp.pop_back();
         ans[pos]=temp;
@@ -18,19 +19,21 @@ for(int i=0;i<s.size();i++){
         
     }
     else{
-        temp+=s[index];
-        index++;
+        temp+=s[i];
+     
 
-    }}
+    }
+}
      int pos=temp[temp.size()-1]-'0';
         temp.pop_back();
         ans[pos]=temp;
+        count++;
        string result;
         for(int i=1;i<=count;i++){
-            temp+=ans[i];
-            temp+=' ';
-            temp.pop_back();
-        }
-        cout<<temp;
+            result+=ans[i];
+            result+=' ';
+          ;
+        }  result.pop_back();
+        cout<<result;
 
 }
