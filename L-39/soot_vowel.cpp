@@ -41,6 +41,6 @@ for(int i=0;i<s.size();i++){
     second++;}
 
 }
-cout<<s;
+cout<<s; 
 
 }
