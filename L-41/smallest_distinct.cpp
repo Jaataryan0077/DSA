@@ -51,5 +51,6 @@ int main()
         }
     }
 
+    cout<<len<<endl;
     cout<<len;
 }
