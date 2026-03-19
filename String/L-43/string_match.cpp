@@ -26,7 +26,7 @@ int main(){
     }
     int first=0,second=0;
     while(second<small.size()&&first<big.size())
-    {
+     {
         if(small[second]==big[first]){
             first++,second++;
         }
