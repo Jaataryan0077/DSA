@@ -1,6 +1,9 @@
 #include<iostream>
 using namespace std;
 int bs(int arr[],int X,int start,int end){
+    if(start>end){
+        return 0;
+    }
     int mid=start+(end-start)/2;
     if(arr[mid]==X){
         return mid;
