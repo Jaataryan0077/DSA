@@ -1,4 +1,4 @@
-/* #include<iostream>
+#include<iostream>
 using namespace std;
 void sub(int arr[],int index,int n,vector<vector<int>>&ans,vector<int>temp){
     if(index==n){
@@ -24,9 +24,9 @@ for(int i=0;i<ans.size();i++){
 
 
 
-} */
+} 
 
-//for strind]g
+/* //for strind]g
 
 #include<iostream>
 using namespace std;
@@ -51,4 +51,4 @@ for(int i=0;i<ans.size();i++){cout<<ans[i]<<endl;
 
 
 
-}
+} */
