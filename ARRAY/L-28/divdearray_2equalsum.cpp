@@ -18,7 +18,7 @@ for(int i=0;i<n-1;i++){
 
 
 if(ans==prefix){
-    cout<<ans<<"   ";
+    cout<<ans<<"  ";
     found=1;
     break;
 }
