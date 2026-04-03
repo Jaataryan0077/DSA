@@ -7,8 +7,6 @@ int ans=INT_MIN;
 for(int i=0;i<n-1;i++){
     for(int j=i+1;j<n;j++){
         ans=max(ans,arr[j]-arr[i]);
-       
-
     }
 }cout<<ans;
  
