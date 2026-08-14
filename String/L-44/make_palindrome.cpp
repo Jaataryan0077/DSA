@@ -6,7 +6,7 @@
 using namespace std;
 
 int main(){
-    string s="abcdda"; 
+    string s="abc"; 
      int n=s.size();
     string rev=s;
     reverse(rev.begin(),rev.end());
