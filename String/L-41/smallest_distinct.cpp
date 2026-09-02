@@ -10,10 +10,11 @@ int main()
 
     int first=0, second=0;
     int len=INT_MAX;
-    int diff=0;
+    int diff=0;  
 
     // Step 1: count total distinct characters
-    while(first<s.size()){
+    while(first<s.size())
+    {
         if(count[s[first]]==0)
             diff++;
         count[s[first]]++;
@@ -52,5 +53,4 @@ int main()
     }
 
     cout<<len<<endl;
-    cout<<len;
-}
+} 

@@ -7,7 +7,7 @@ void subsum(int arr[],int index,int n,int sum,vector<int>temp){
         }
         cout<<endl;
     return ;}
-    if(index==n || sum<0)
+    if(index==n || sum<0)  
     return ;
 
   subsum(arr,index+1,n,sum,temp);

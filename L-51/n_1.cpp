@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-//printing 1 to n
+//printing n to 1
 
 /* void fun(int n){
 if(n==1){
@@ -15,7 +15,7 @@ int main(){
     fun(5);
 } */
 
-//printing 1 to n ,,only even no.
+//printing n to 1 ,,only odd no.
 void print(int n){
     if(n<0){
         cout<<0;

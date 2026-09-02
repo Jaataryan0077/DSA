@@ -15,7 +15,7 @@ int main()
         char c='0'+sum%10;
         ans+=c;
         index1--;
-        index2--;
+        index2--;  
     }
     while(index1>=0){
         int sum=num1[index1]-'0'+carry;

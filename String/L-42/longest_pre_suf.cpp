@@ -22,7 +22,6 @@ int main(){
             }
         }
 
-    }
+    } 
  cout<<lps.back();
-
 }

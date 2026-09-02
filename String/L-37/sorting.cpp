@@ -8,7 +8,7 @@ int main(){
         ans[s[i]-'a']++;
     }string s2;
     for(int i=0;i<26;i++){
-        char c='a'+i;
+        char c='a'+i;//ascii ko character m bdlega
         while(ans[i])
        { s2+=c;
         ans[i]--;
