@@ -23,7 +23,7 @@ void quicksort(int arr[],int start,int end){
 }
 int main(){
     int arr[]={2,4,65,63,2,646,46,463};
-    quicksort(arr,0,8);
+    quicksort(arr,0,7);
     for(int i=0;i<8;i++){
         cout<<arr[i]<<" ";
     }
